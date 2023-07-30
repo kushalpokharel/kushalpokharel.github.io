@@ -1,0 +1,6 @@
+[submodule "themes/toha"]
+	path = themes/toha
+	url = https://github.com/hugo-toha/toha.git
+[submodule "portfolio/hugo-PaperMod"]
+	path = portfolio/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
