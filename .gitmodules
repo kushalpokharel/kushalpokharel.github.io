@@ -4,3 +4,9 @@
 [submodule "portfolio/hugo-PaperMod"]
 	path = portfolio/hugo-PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-blox"]
+	path = themes/hugo-blox
+	url = https://github.com/HugoBlox/hugo-blox-builder.git

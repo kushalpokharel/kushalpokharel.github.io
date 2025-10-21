@@ -1,0 +1,60 @@
+baseURL = "https://kushalpokharel.github.io/"
+title = "Kushal Pokharel"
+theme = "hugo-blox"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = true
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+# Enable LaTeX/Math support
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[params]
+  # Enable math globally
+  math = true
+  # Enable KaTeX
+  katex = true
+  
+  # Site Info
+  description = "My Personal Blog and Portfolio"
+  author = "Kushal Pokharel"
+  
+  # Theme Features
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  # Custom CSS for KaTeX
+  customCSS = [
+    "https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"
+  ]
+  
+  # Custom JS for KaTeX
+  customJS = [
+    "https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js",
+    "https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+  ]
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20

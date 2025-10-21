@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kushal Pokharel</title>
+    <link>http://localhost:49226/posts/</link>
+    <description>Recent content in Posts on Kushal Pokharel</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:49226/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Blog Post</title>
+      <link>http://localhost:49226/posts/first-post/</link>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:49226/posts/first-post/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;author:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Your Name&#xA;date: 2025-10-20&#xA;title: My First Blog Post&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;This is a sample blog post written in LaTeX. You can include mathematical equations like:&lt;/p&gt;&#xA;&lt;p&gt;$$E = mc^2$$&lt;/p&gt;&#xA;&lt;p&gt;Or inline equations like $F = ma$.&lt;/p&gt;&#xA;&lt;h1 id=&#34;features&#34;&gt;Features&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Full LaTeX support&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Mathematical equations&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Code blocks&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Tables and figures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;example-code&#34;&gt;Example Code&lt;/h1&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a sample code block:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;def hello_world():&#xA;    print(&amp;quot;Hello, World!&amp;quot;)&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

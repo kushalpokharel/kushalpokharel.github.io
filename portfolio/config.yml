@@ -1,7 +1,7 @@
 baseURL: "https://kushalpokharel99.com.np" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Kushal Pokharel
 paginate: 5
-theme: PaperMod 
+theme: HugoBlox
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
