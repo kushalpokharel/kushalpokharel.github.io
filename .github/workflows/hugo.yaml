@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.151.2+extended+withdeploy
+      HUGO_VERSION: 0.151.2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,6 +43,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          cd kushal-site-1 && npm install &&
           hugo --gc --minify
 
       - name: Setup Pages
@@ -52,7 +53,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public # Upload the contents of the Hugo output directory
+          path: ./kushal-site-1/public # Upload the contents of the Hugo output directory
 
   # Deployment Job
   deploy:
